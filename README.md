@@ -26,8 +26,9 @@ When I drop the table and recreate it (with same name), I still see old data whe
 
 Reproduction:
 1. Bring up containers
-2. Run the script Connect to the catalog
+2. Run the script 
 ```
+Connect to the catalog
 Create namespace iceberg
 --Already exists
 List namespaces
@@ -67,7 +68,7 @@ Output:
 
 4 rows in set. Elapsed: 0.026 sec. 
 ```
-4. Return to script window and press enter
+4. Return to script window and press enter  
 Output:
 ```
 Drop table iceberg.names
@@ -102,7 +103,7 @@ Output:
 4 rows in set. Elapsed: 0.019 sec. 
 ```
 Here I expect to see empty table.  
-6. Return to script window and press enter
+6. Return to script window and press enter  
 Output:
 ```
 Script paused. Press Enter to continue...
@@ -135,6 +136,6 @@ Output:
 
 4 rows in set. Elapsed: 0.020 sec. 
 ```
-But I expect to see one row as I see when reading with iceberg.
+But I expect to see one row as I see when reading with pyiceberg.
 
 
