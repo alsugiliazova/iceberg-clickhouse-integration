@@ -103,6 +103,7 @@ Output:
 4 rows in set. Elapsed: 0.019 sec. 
 ```
 Here I expect to see empty table.  
+
 6. Return to script window and press enter  
 Output:
 ```
