@@ -22,7 +22,7 @@ clickhouse client
 ```
 
 ## Issue with recreate table
-When I drop the table and recreate it (with same name), I still see old data when reading row from clickhouse.
+When I drop the table and recreate it (with same name), I still see old data when reading it from clickhouse.
 
 Reproduction:
 1. Bring up containers
