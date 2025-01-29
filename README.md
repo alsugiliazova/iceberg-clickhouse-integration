@@ -140,3 +140,9 @@ Output:
 But I expect to see one row as I see when reading with pyiceberg.
 
 
+I expecrince the same issue when reading data with iceberg table function as well.
+I use following query:
+```
+SELECT * FROM iceberg('http://minio:9000/warehouse/data')
+```
+
