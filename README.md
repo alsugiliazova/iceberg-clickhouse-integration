@@ -8,6 +8,11 @@ Reproduction was created on base of the https://github.com/Altinity/clickhouse-s
 docker compose up -d
 ```
 
+## !!! In case of problems !!!
+```
+docker restart iceberg-clickhouse-integration-rest-1
+```
+
 ## Run the script
 It creates iceberg table, adds 4 rows into it, drop the table, recreates it, adds one row to recreated table.
 ```
