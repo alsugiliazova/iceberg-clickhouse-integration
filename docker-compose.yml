@@ -26,7 +26,7 @@ services:
       - CATALOG_IO__IMPL=org.apache.iceberg.aws.s3.S3FileIO
       - CATALOG_S3_ENDPOINT=http://minio:9000
   clickhouse:
-    image: clickhouse:24.12.3.47
+    image: clickhouse:25.4
     container_name: clickhouse
     ports:
       - 9000:9000
